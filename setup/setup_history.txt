@@ -1,0 +1,1000 @@
+ 1021  ls "/mnt/g/*"
+ 1022  ls "/mnt/c/Users/lpres"
+ 1023  crontab -e
+ 1024  rclone sync /home/larry/mk/larpkm gdrive:mk/larpkm --exclude='.venv/**' --quiet
+ 1025  crontab -e
+ 1026  rclone version
+ 1027  rclone selfupdate
+ 1028  curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
+ 1029  unzip rclone-current-linux-amd64.zip
+ 1030  cd rclone-*-linux-amd64
+ 1031  sudo cp rclone /usr/bin/
+ 1032  sudo chmod 755 /usr/bin/rclone
+ 1033  rclone version
+ 1034  rclone bisync --help
+ 1035  wq
+ 1036  cd ../
+ 1037  ls -ltr
+ 1038  rm -rf rclone-current-linux-amd64.zip rclone-v1.69.2-linux-amd64
+ 1039  ls -ltr
+ 1040  chmod +x rclone_binsync.sh 
+ 1041  ./rclone_binsync.sh 
+ 1042  vi ~/.rclone/larpkm_bisync.log 
+ 1043  ./bisync_larpkm.sh --resync
+ 1044  ls -ltr
+ 1045  mv rclone_binsync.sh sync_larpkm_bidirectional.sh
+ 1046  vi sync_larpkm_bidirectional.sh
+ 1047  sync_larpkm_bidirectional.sh --resync
+ 1048  ./sync_larpkm_bidirectional.sh --resync
+ 1049  ./sync_larpkm_bidirectional.sh
+ 1050  crontab -e
+ 1051  sudo apt install mailutils
+ 1052  ./bisync_larpkm_cron.sh 
+ 1053  pwd
+ 1054  ./bisync_larpkm_cron.sh 
+ 1055  mkdocs serve
+ 1056  cd ~../
+ 1057  cd ../
+ 1058  mkdocs serve
+ 1059  cd stocks
+ 1060  cd ../
+ 1061  cd stocks
+ 1062  ls -al
+ 1063  source .venv/bin/activate
+ 1064  pip install pandas requests bs4 yfinance
+ 1065  source /home/larry/mk/stocks/.venv/bin/activate
+ 1066  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1067  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1068  source /home/larry/mk/stocks/.venv/bin/activate
+ 1069  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1070  source /home/larry/mk/stocks/.venv/bin/activate
+ 1071  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1072  source /home/larry/mk/stocks/.venv/bin/activate
+ 1073  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1074  source /home/larry/mk/stocks/.venv/bin/activate
+ 1075  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1076  mkdocs serve
+ 1077  cd ../
+ 1078  cd larpkm/
+ 1079  source .venv/bin/activate
+ 1080  mkdocs serve
+ 1081  exit
+ 1082  source /home/larry/mk/stocks/.venv/bin/activate
+ 1083  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1084  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1085  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1086  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1087  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1088  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1089  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1090  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1091  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1092  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1093  pip install duckdb
+ 1094  pip freeze > requirements.txt
+ 1095  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1096  pip install pyarrow fastparquet
+ 1097  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1098  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1099  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1100  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1101  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_historical_data.py
+ 1102  cd dbnostix
+ 1103  cd ../dbnostix
+ 1104  source /home/larry/mk/stocks/.venv/bin/activate
+ 1105  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1106  pip install lxml
+ 1107  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1108  cd dbnostix
+ 1109  cd ../dbnostix; source .venv/bin/activate
+ 1110  mkdocs serve
+ 1111  source /home/larry/mk/stocks/.venv/bin/activate
+ 1112  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s05_calculate_indicators.py
+ 1113  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s03_historical_data.py
+ 1114  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s05_indicators.py
+ 1115  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_financials.py
+ 1116  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_financials_rotate.py
+ 1117  exit
+ 1118  cd ..
+ 1119  ls
+ 1120  cd larpkm
+ 1121  ls -ltr
+ 1122  cd ~/mk/larpkm; source .venv/bin/activate; mkdocs serve
+ 1123  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1124  cd ~/mk/larpkm; source .venv/bin/activate; mkdocs serve
+ 1125  pwd
+ 1126  mkdir ap
+ 1127  cd ap
+ 1128  git clone https://github.com/UkeGeeks/ukeGeeks.git
+ 1129  cd ukeGeeks
+ 1130  https://github.com/UkeGeeks/ukeGeeks/archive/refs/heads/master.zip
+ 1131  git clone https://github.com/UkeGeeks/ukeGeeks.git
+ 1132  cd ukeGeeks
+ 1133  git clone https://github.com/buzcarter/UkeGeeks.git
+ 1134  sudo apt install apache2
+ 1135  cd /var/www/html
+ 1136  sudo git clone https://github.com/buzcarter/UkeGeeks.git ukegeeks
+ 1137  sudo chown -R www-data:www-data /var/www/html/ukegeeks
+ 1138  sudo chmod -R 755 /var/www/html/ukegeeks
+ 1139  sudo chown -R www-data:www-data /var/www/html/ukegeeks
+ 1140  sudo chmod -R 755 /var/www/html/ukegeeks
+ 1141  sudo systemctl start apache2
+ 1142  sudo systemctl enable apache2  # optional, to auto-start on boot
+ 1143  cd 
+ 1144  sudo apt install nginx
+ 1145  cd /var/www/
+ 1146  sudo git clone https://github.com/UkeGeeks/ukeGeeks.git
+ 1147  sudo mv ukeGeeks /var/www/ukegeeks
+ 1148  sudo git clone https://github.com/UkeGeeks/ukeGeeks.git
+ 1149  cd 
+ 1150  cd /home/larry
+ 1151  ls -ltr
+ 1152  cd ap
+ 1153  ls -ltr
+ 1154  rm -rf UkeGeeks/
+ 1155  cd /var/www/
+ 1156  sudo git clone https://github.com/UkeGeeks/ukeGeeks.git
+ 1157  sudo mv ukeGeeks /var/www/ukegeeks
+ 1158  cp UkeGeeks /vaw/www/ukegeeks
+ 1159  cd ../
+ 1160  cp ukeGeeks /vaw/www/ukegeeks
+ 1161  ls -ltr
+ 1162  mv UkeGeeks var/www/ukegeeks
+ 1163  sudo mv UkeGeeks var/www/ukegeeks
+ 1164  cd UkeGeeks/
+ 1165  ls -ltr
+ 1166  sudo mv UkeGeeks var/www/ukegeeks
+ 1167  sudo mv ukeGeeks /var/www/ukegeeks
+ 1168  cd ../
+ 1169  ls -ltr
+ 1170  rm -rf UkeGeeks
+ 1171  cd ../
+ 1172  ls -ltr
+ 1173  cd ../
+ 1174  ls -ltr
+ 1175  mv uke-chord-maker ukeGeeks
+ 1176  ls 
+ 1177  mv ukeGeeks /var/www/ukegeeks
+ 1178  sudo mv ukeGeeks /var/www/ukegeeks
+ 1179  cd /var/www
+ 1180  ls-ltr
+ 1181  ls -ltr
+ 1182  sudo chown -R www-data:www-data /var/www/ukegeeks
+ 1183  sudo chmod -R 755 /var/www/ukegeeks
+ 1184  sudo vi /etc/nginx/sites-available/ukegeeks
+ 1185  sudo ln -s /etc/nginx/sites-available/ukegeeks /etc/nginx/sites-enabled/
+ 1186  sudo nginx -t
+ 1187  sudo systemctl reload nginx
+ 1188  sudo apt install certbot python3-certbot-nginx
+ 1189  sudo certbot --nginx -d your-domain.com
+ 1190  ls -ltr
+ 1191  cd ukegeeks
+ 1192  ls -ltr
+ 1193  cd ../
+ 1194  ls /var/www/ukegeeks/editor.html
+ 1195  sudo chown -R www-data:www-data /var/www/ukegeeks
+ 1196  sudo chmod -R 755 /var/www/ukegeeks
+ 1197  sudo chmod +x /var/www
+ 1198  sudo chmod +x /var/www/ukegeeks
+ 1199  sudo vi /etc/nginx/sites-available/ukegeeks
+ 1200  sudo nginx -t
+ 1201  sudo systemctl restart nginx
+ 1202  cd /var/www
+ 1203  ls -ltr
+ 1204  cd html
+ 1205  ls -ltr
+ 1206  mv index.html index.apache.html
+ 1207  sudo mv index.html index.apache.html
+ 1208  mv index.nginx-debian.html index.html
+ 1209  sudo mv index.nginx-debian.html index.html
+ 1210  sudo systemctl stop apache2
+ 1211  sudo apt remove apache2
+ 1212  sudo apt autoremove
+ 1213  sudo chown -R www-data:www-data /var/www/ukegeeks
+ 1214  sudo chmod -R 755 /var/www/ukegeeks
+ 1215  ls -l /var/www/ukegeeks/editor.html
+ 1216  ls
+ 1217  ls ukegeeks/
+ 1218  ls -al
+ 1219  cd ukegeeks
+ 1220  ls =ltr
+ 1221  ls -ltr
+ 1222  cd ugsphp/
+ 1223  ls -ltr
+ 1224  cd ../
+ 1225  cd ../../
+ 1226  ls -ltr
+ 1227  ls ukegeeks
+ 1228  cd ../html
+ 1229  ls -ltr
+ 1230  cd html
+ 1231  ls -ltr
+ 1232  cd ../
+ 1233  rm -rf html
+ 1234  sudo rm -rf html
+ 1235  ls -ltr
+ 1236  cd ukegeeks
+ 1237  ls -ltr
+ 1238  sudo nginx -t
+ 1239  sudo systemctl reload nginx
+ 1240  cd ukegeeks
+ 1241  ls -ltr
+ 1242  cd ../
+ 1243  ls -ltr
+ 1244  cd ukegeeks
+ 1245  ls -ltr
+ 1246  cd ugsphp
+ 1247  ls -ltr
+ 1248  sudo tail -n 20 /var/log/nginx/error.log
+ 1249  cd /etc/nginx/sites-available/
+ 1250  ls -ltr
+ 1251  cd ukegeeks
+ 1252  vi ukegeeks
+ 1253  cat ukegeeks
+ 1254  ls -al /var/www/ukegeeks
+ 1255  cd /var/www
+ 1256  ls -ltr
+ 1257  ls -al /var/www/ukegeeks
+ 1258  cd /var/www/
+ 1259  sudo git clone https://github.com/buzcarter/UkeGeeks.git
+ 1260  sudo mv UkeGeeks ukegeeks
+ 1261  ls -ltr
+ 1262  cd ukegeeks
+ 1263  ls -ltr
+ 1264  cd UkeGeeks
+ 1265  ls -ltr
+ 1266  cd ../
+ 1267  ls -ltr
+ 1268  cd src
+ 1269  ls -ltr
+ 1270  cd ../
+ 1271  ls -ltr
+ 1272  rm -rf ukegeeks
+ 1273  sudo rm -rf ukegeeks
+ 1274  ls -ltr
+ 1275  cd /var/www/
+ 1276  sudo git clone https://github.com/buzcarter/UkeGeeks.git
+ 1277  sudo mv UkeGeeks ukegeeks
+ 1278  ls -ltr
+ 1279  cd ukegeeks
+ 1280  ls -ltr
+ 1281  cd ../
+ 1282  sudo rm -f ukegeeks
+ 1283  sudo rm -rf ukegeeks
+ 1284  cd /var/www/
+ 1285  sudo git clone https://github.com/buzcarter/ace-chordpro-extension.git
+ 1286  sudo mv ace-chordpro-extension ukegeeks
+ 1287  ls -ltr
+ 1288  cd ukegeeks
+ 1289  ls -ltr
+ 1290  cd ../
+ 1291  sudo chown -R www-data:www-data /var/www/ukegeeks
+ 1292  sudo chmod -R 755 /var/www/ukegeeks
+ 1293  sudo nano /etc/nginx/sites-available/ukegeeks
+ 1294  sudo ln -s /etc/nginx/sites-available/ukegeeks /etc/nginx/sites-enabled/
+ 1295  sudo nginx -t
+ 1296  sudo systemctl reload nginx
+ 1297  ls -ltr
+ 1298  cd ukegeeks
+ 1299  ls -ltr
+ 1300  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s04_financials_rotate.py
+ 1301  cd ../
+ 1302  source .venv/bin/activate; mkdocs sedrve
+ 1303  source .venv/bin/activate; mkdocs serve
+ 1304  cd ~mk/larpkm source .venv/bin/activate; mkdocs serve
+ 1305  cd ~mk/larpkm; source .venv/bin/activate; mkdocs serve
+ 1306  cd ~/mk/larpkm; source .venv/bin/activate; mkdocs serve
+ 1307  python -m http.server 8080
+ 1308  python3 -m http.server 8080
+ 1309  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1310  mkdocs serve
+ 1311  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1312  /home/larry/mk/larpkm/.venv/bin/python /home/larry/mk/larpkm/apps/scrape_reuters.py
+ 1313  pip install requests beautifulsoup4
+ 1314  /home/larry/mk/larpkm/.venv/bin/python /home/larry/mk/larpkm/apps/scrape_reuters.py
+ 1315  crontab -e
+ 1316  utils/bisync_larpkm_cron.sh
+ 1317  source .venv/bin/activate
+ 1318  mkdocs serve
+ 1319  source .venv/bin/activate
+ 1320  mkdocs serve
+ 1321  exit
+ 1322  source .venv/bin/activate
+ 1323  mkdocs serve
+ 1324  /bin/python3.12 /home/larry/pylin/xpocs/poc107_flask/scripts/s10.py
+ 1325  /bin/python3.12 /home/larry/pylin/xpocs/poc107_flask/scripts/example1.py
+ 1326  /bin/python3.12 /home/larry/pylin/xpocs/poc107_flask/scripts/example2.py
+ 1327  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc107_flask/s11_script_server.py
+ 1328  pip install flask
+ 1329  python3 -m pip install --upgrade pip
+ 1330  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc107_flask/s11_script_server.py
+ 1331  source .venv/bin/activate
+ 1332  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc107_flask/s11_script_server.py
+ 1333  python3 -m pip install --upgrade pip
+ 1334  pip install flask
+ 1335  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc107_flask/s11_script_server.py
+ 1336  /usr/bin/python3.12 /home/larry/pylin/stocks/flask_app_server.py
+ 1337  pip install flask
+ 1338  source .venv/bin/activate
+ 1339  pip install flask
+ 1340  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/flask_app_server.py
+ 1341  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/flask_app_server2.py
+ 1342  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s01_wikipedia_tickers.py
+ 1343  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s02_company_info.py
+ 1344  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1345  source /home/larry/mk/stocks/.venv/bin/activate
+ 1346  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s01_wikipedia_tickers.py
+ 1347  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1348  source /home/larry/mk/stocks/.venv/bin/activate
+ 1349  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1350  source /home/larry/mk/stocks/.venv/bin/activate
+ 1351  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1352  source /home/larry/mk/stocks/.venv/bin/activate
+ 1353  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1354  source /home/larry/mk/stocks/.venv/bin/activate
+ 1355  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s05_indicators.py
+ 1356  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_company_info.py
+ 1357  source /home/larry/mk/stocks/.venv/bin/activate
+ 1358  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s03_history.py
+ 1359  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s02_history.py
+ 1360  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s03_history_poc.py
+ 1361  /home/larry/mk/stocks/.venv/bin/python
+ 1362  source /home/larry/mk/stocks/.venv/bin/activate
+ 1363  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s03_history_poc.py
+ 1364  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1365  mkdocs serve
+ 1366  cd ../
+ 1367  source .venv/bin/activatge
+ 1368  source .venv/bin/activate
+ 1369  stocks
+ 1370  cd stocks/
+ 1371  source .venv/bin/activate
+ 1372  cd scripts/
+ 1373  source /home/larry/mk/stocks/.venv/bin/activate
+ 1374  /home/larry/mk/stocks/.venv/bin/python /home/larry/mk/stocks/scripts/s03_history_poc.py
+ 1375  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1376  mkdocs serve
+ 1377  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc108_imdb/top250.py
+ 1378  pip install requests bs4
+ 1379  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc108_imdb/top250.py
+ 1380  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc108_imdb/parse_pdf.py
+ 1381  pip install PyPDF2
+ 1382  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc108_imdb/parse_pdf.py
+ 1383  pip install pandas
+ 1384  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc108_imdb/parse_pdf.py
+ 1385  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1386  source /home/larry/mk/larpkm/.venv/bin/activate/python3 -m mkdocs serve
+ 1387  source /home/larry/mk/larpkm/.venv/bin/activate python3 -m mkdocs serve
+ 1388  exit
+ 1389  source /home/larry/mk/larpkm/.venv/bin/activate; python3 -m mkdocs serve
+ 1390  cd /home/larry/mk/larpkm/; source .venv/bin/activate; python3 -m mkdocs serve
+ 1391  exit
+ 1392  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1393  source /home/larry/mk/stocks/.venv/bin/activate
+ 1394  git config pull.rebase 
+ 1395  git config pull.rebase true  
+ 1396  vi run_mkdocs_serve.sh 
+ 1397  chmod +x run_mkdocs_serve.sh 
+ 1398  ./run_mkdocs_serve.sh 
+ 1399  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1400  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc109_stooq/fetch_historical_data.py
+ 1401  exit
+ 1402  pip install pandas
+ 1403  pip install pandas_datareader
+ 1404  pip install alpha_vantage
+ 1405  pip freeze > requirements.txt 
+ 1406  pip list
+ 1407  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc109_stooq/fetch_historical_data.py
+ 1408  python -m pip install --upgrade pip setuptools
+ 1409  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc109_stooq/fetch_historical_data.py
+ 1410  /usr/bin/python3.12 /home/larry/pylin/stocks/scripts/s03_history.py
+ 1411  pip install yfinance
+ 1412  /usr/bin/python3.12 /home/larry/pylin/stocks/scripts/s03_history.py
+ 1413  source .venv//bin/activate
+ 1414  /usr/bin/python3.12 /home/larry/pylin/stocks/scripts/s03_history.py
+ 1415  pip install --upgrade pip setuptools
+ 1416  /usr/bin/python3.12 /home/larry/pylin/stocks/scripts/s03_history.py
+ 1417  source .venv//bin/activate
+ 1418  /usr/bin/python3.12 /home/larry/pylin/stocks/scripts/s03_history.py
+ 1419  pip list
+ 1420  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history.py
+ 1421  source .venv/bin/activate
+ 1422  pip list
+ 1423  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1424  pip install pandas_datareader
+ 1425  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1426  pip install --upgrade pip setuptools
+ 1427  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1428  pip install alpha_vantage
+ 1429  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1430  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s04_price__volume.py
+ 1431  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/data/tickers/s04t.py
+ 1432  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1433  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/data/tickers/s04t.py
+ 1434  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s02_get_info.py
+ 1435  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1436  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1437  mkdocs serve
+ 1438  ls
+ 1439  mkdocs serve
+ 1440  ls -al
+ 1441  mv run_mkdocs_serve.sh start_mkdocs.sh
+ 1442  ./sta
+ 1443  ./start_mkdocs.sh 
+ 1444  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1445  mkdocs serve
+ 1446  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1447  ./utils/bisync_larpkm_cron.sh 
+ 1448  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1449  pip install icecream
+ 1450  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03b_history_rerun.py
+ 1451  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history..py
+ 1452  ./start_mkdocs.sh 
+ 1453  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03b_history_rerun.py
+ 1454  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1455  ls -al .bashrc
+ 1456  vi .bashrc
+ 1457  ~/start_mkdocs.sh 
+ 1458  vi .bashrc
+ 1459  exit
+ 1460  git config pull.rebase true
+ 1461  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1462  ./utils/bisync_larpkm_cron.sh 
+ 1463  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s06_load_duckdb.py
+ 1464  exit
+ 1465  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s06_load_duckdb.py
+ 1466  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s07_eda.py
+ 1467  pip install seaborn
+ 1468  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s07_eda.py
+ 1469  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s08_calc_indicators.py
+ 1470  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s04_price__volume.py
+ 1471  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s07_eda.py
+ 1472  cd data/duckdb
+ 1473  duckdb -h
+ 1474  duckdb -help
+ 1475  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1476  duckdb - help
+ 1477  duckdb -help
+ 1478  duckdb stocks.db
+ 1479  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s04_gen_price_vol_ticker.py
+ 1480  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s09_create_pricevol_table.py
+ 1481  git rm s03_history.py
+ 1482  mkdocs serve
+ 1483  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1484  mkdocs serve
+ 1485  ./start_mkdocs.sh 
+ 1486  mkdocs serve
+ 1487  /home/larry/pylin/xpocs/.venv/bin/python /home/larry/pylin/xpocs/poc109_stooq/fetch_historical_data.py
+ 1488  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03_history_stooq.py
+ 1489  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s03b_history_rerun.py
+ 1490  /home/larry/pylin/stocks/.venv/bin/python /home/larry/pylin/stocks/scripts/s02_company_info.py
+ 1491  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1492  mkdocs build
+ 1493  source .venv/bin/activate
+ 1494  mkdocs serve
+ 1495  exit
+ 1496  mkdocs build
+ 1497  mkdocs gh-deploy
+ 1498  mkdocs serve
+ 1499  mkdocs build
+ 1500  mkdocs gh-deploy
+ 1501  mkdocs serve
+ 1502  ./start_mkdocs.sh 
+ 1503  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1504  /usr/bin/python3.12 /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1505  pip install yt_dlp
+ 1506  /usr/bin/python3.12 /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1507  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1508  pip install yt_dlp
+ 1509  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1510  source .venv/bin/activate
+ 1511  pip install yt_dlp
+ 1512  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1513  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1514  pip install moviepy
+ 1515  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1516  pip install moviepy.editor
+ 1517  pip list
+ 1518  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1519  pip install moviepy
+ 1520  pip list | grep movie
+ 1521  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1522  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1523  find . -name "__pycache__" -exec rm -r {} +
+ 1524  find . -name "*.pyc" -delete
+ 1525  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/x11_mp4_to_mp3.py
+ 1526  /home/larry/pylin/YouTube/.venv/bin/python /home/larry/pylin/YouTube/10a_fix_using_yt-dlp.py
+ 1527  ffmpeg 
+ 1528  sudo apt update
+ 1529  sudo apt install ffmpeg
+ 1530  ffmpeg -version
+ 1531  ./start_mkdocs.sh 
+ 1532  /home/larry/pylin/YouTube-1/.venv/bin/python /home/larry/pylin/YouTube-1/10a_fix_using_yt-dlp.py
+ 1533  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1534  ffmpeg -version
+ 1535  ffmpeg data/video/BestAudiophileVoices-Hi-ResMusic24Bit-AudiophileJazz2023.mp4 -q:a 0 -map a output.mp3
+ 1536  ffmpeg data/video/BestAudiophileVoices-Hi-ResMusic24Bit-AudiophileJazz2023.mp4 -q:a 0 output.mp3
+ 1537  ls *mp4
+ 1538  ffmpeg -i input.mp4 -q:a 0 -map a output.mp3
+ 1539  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1540  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1541  ./start_mkdocs.sh 
+ 1542  cd larpkm
+ 1543  source .venv/bin/activate
+ 1544  cd pylin
+ 1545  cd Donot-Store/
+ 1546  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1547  /home/larry/pylin/Donot-Store/.venv/bin/python /home/larry/pylin/Donot-Store/app.py
+ 1548  streamlit run /home/larry/pylin/Donot-Store/app.py 
+ 1549  /home/larry/pylin/Donot-Store/.venv/bin/python /home/larry/pylin/Donot-Store/geocode_stores.py
+ 1550  streamlit run app.py
+ 1551  streamlit run app.py
+ 1552  pip install -r requirements.txt
+ 1553  streamlit run app.py
+ 1554  source .venv/bin/activate
+ 1555  streamlit run app.py
+ 1556  pip install googlemaps
+ 1557  pip install python-dotenv
+ 1558  streamlit run app.py
+ 1559  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1560  source /home/larry/mk/larpkm/.venv/bin/activate
+ 1561  mkdocs ghdeploy
+ 1562  mkdocs gh-deploy
+ 1563  pip install --upgrade pip mkdocs   # readthedocs theme ships with MkDocs
+ 1564  mkdocs new .
+ 1565  mkdocs serve
+ 1566  (.venv) larry@black:~/mk/mk_consulting$ mkdocs serve -a 127.0.0.1:8071
+ 1567  mkdocs serve -a 127.0.0.1:8071
+ 1568  mkdir -p docs/css
+ 1569  touch docs/css/custom.css
+ 1570  mkdocs serve -a 127.0.0.1:8071
+ 1571  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1572  mkdocs gh-deploy
+ 1573  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1574  source .venv/bin/activate
+ 1575  mkdocs serve
+ 1576  mkdocs help
+ 1577  mkdocs -h
+ 1578  mkdocs serve
+ 1579  mkdocs gh-deploy
+ 1580  ./start_mkdocs.sh 
+ 1581  crontab -l
+ 1582  find . rclone
+ 1583  find . | grep rclone
+ 1584  cd /mnt/c/Users/lpres/
+ 1585  LS
+ 1586  ls
+ 1587  cd Downloads/
+ 1588  ls
+ 1589  sudo apt update
+ 1590  exit
+ 1591  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/data/generate_stores.py
+ 1592  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/db/init_duckdb.py
+ 1593  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/backend/gps_simulator.py
+ 1594  sudo apt update
+ 1595  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/test_redis_server.py
+ 1596  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/backend/gps_simulator.py
+ 1597  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/map_server.py
+ 1598  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/utils/test_duckdb_query.py
+ 1599  duckdb
+ 1600  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/db/init_duckdb.py
+ 1601  cd ../
+ 1602  cd fleet_tracker/fleet_tracker/
+ 1603  ls
+ 1604  cd ../
+ 1605  duckdb fleet_tracker.db
+ 1606  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1607  pip install streamlit
+ 1608  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1609  eixt
+ 1610  exit
+ 1611  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1612  exit
+ 1613  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1614  exit
+ 1615  pip list
+ 1616  pip list | grep streamlit
+ 1617  exit
+ 1618  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1619  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1620  streamlit run /home/larry/app/fleet_tracker/fleet_tracker/frontend/truck_simulator.py
+ 1621  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/backend/gps_simulator.py
+ 1622  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/map_server.py
+ 1623  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/utils/test_redis_server.py
+ 1624  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/test_redis_server.py
+ 1625  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/duckdb_query.py
+ 1626  pip install geopy
+ 1627  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/geopy_one.py
+ 1628  export GOOGLE_API_KEY="AIzaSyCcJ2mEGuYaswvoLbkSx4-UZivroMUEync"
+ 1629  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/geopy_googlev3.py
+ 1630  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/geopy_googlev3.py one
+ 1631  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/test/geopy_googlev3.py bulk
+ 1632  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/map_server_homes.py
+ 1633  pip install faker
+ 1634  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/gen_data/gen_home_info.py
+ 1635  /home/larry/app/fleet_tracker/.venv/bin/python /home/larry/app/fleet_tracker/fleet_tracker/frontend/map_server_homes.py
+ 1636  pip install streamlit
+ 1637  pip install pydeck
+ 1638  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1639  ./start_mkdocs.sh 
+ 1640  sudo apt update
+ 1641  sudo apt install redis
+ 1642  sudo systemctl start redis
+ 1643  wsl
+ 1644  sudo apt install redis
+ 1645  sudo systemctl start redis
+ 1646  sudo systemctl enable redis
+ 1647  exitg
+ 1648  exit
+ 1649  git config pull.rebase true
+ 1650  git config pull.rebase false
+ 1651  cd py
+ 1652  ls -ltr
+ 1653  ls
+ 1654  python
+ 1655  python3
+ 1656  pylin/web_dev/
+ 1657  cd pylin/web_dev/
+ 1658  ls a-l
+ 1659  ls -al
+ 1660  chmod +x *sh
+ 1661  ./setup.sh
+ 1662  ./setup.sh 
+ 1663  uvicorn main:100 --reload
+ 1664  vi setup.sh
+ 1665  pip install uvicord
+ 1666  pip install uvicorn
+ 1667  uvicorn main:app --reload
+ 1668  pip install "uvicorn[standard]"
+ 1669  uvicorn main:app --reload
+ 1670  cd code
+ 1671  uvicorn main:app --reload
+ 1672  pip install fastapi
+ 1673  uvicorn main:app --reload
+ 1674  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/deactivate/bash/envVars.txt
+ 1675  ./setup_pip.sh 
+ 1676  uvicorn main:app --reload
+ 1677  cd code;uvicorn main:app --reload
+ 1678  uvicorn code/main:app --reload
+ 1679  cd ../
+ 1680  uvicorn main:app --reload
+ 1681  ls
+ 1682  mv code/main.py .
+ 1683  uvicorn main:app --reload
+ 1684  /home/larry/pylin/web_dev/.venv/bin/python /home/larry/pylin/web_dev/main.py
+ 1685  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/deactivate/bash/envVars.txt
+ 1686  uvicorn main:app --reload
+ 1687  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/deactivate/bash/envVars.txt
+ 1688  printf "protocol=https\nhost=github.com\n" | git credential reject
+ 1689  git config --global user.name "blutterfly"
+ 1690  cd ap
+ 1691  ls  -ltr
+ 1692  ls
+ 1693  cd ../
+ 1694  ls
+ 1695  cd ap
+ 1696  ls -ltr
+ 1697  mkdir ml
+ 1698  cd ml
+ 1699  git init
+ 1700  git add .
+ 1701  git commit -m 'Initial ML bootstrap'
+ 1702  gh repo create ml --public --source=. --push
+ 1703  gh auth login
+ 1704  gh repo create ml --public --source=. --push
+ 1705  gh auth login
+ 1706  git config --global user.name  "blutterfly"
+ 1707  git config --global user.email "larry.prestosa@icloud.com"
+ 1708  gh auth login
+ 1709  ./start_mkdocs.sh 
+ 1710  cd /mnt/c
+ 1711  LS\
+ 1712  ls\
+ 1713  cd Documents
+ 1714  cd Documents*
+ 1715  cd 'Documents and Settings'
+ 1716  cd Windows/
+ 1717  ls
+ 1718  cd /mnt/c/Users/lpres/Documents/Med
+ 1719  cd /mnt/c/Users/lpres/Documents/
+ 1720  ls
+ 1721  cd /mnt/c/Users
+ 1722  ls
+ 1723  cd 'All Users'
+ 1724  cd lpres
+ 1725  ls
+ 1726  cd /mnt/c/lpres
+ 1727  cd  'C:\Users\lpres\OneDrive\Documents\MediumPdf'
+ 1728  cd  'C:\\Users\\lpres\OneDrive\\Documents\\MediumPdf'
+ 1729  cd 
+ 1730  ls -ltr
+ 1731  cd Documents
+ 1732  ls -al
+ 1733  mkdir Documemnts
+ 1734  cd Documents
+ 1735  ls -ltr
+ 1736  mv Documemnts/ Documents/
+ 1737  pwd
+ 1738  cd Documents/
+ 1739  ls -ltr
+ 1740  pwd
+ 1741  ln -s /mnt/c/Users/lpres/OneDrive/Documents/MediumPdf       /home/larry/Documents/MediumPdf
+ 1742  ls -ltr
+ 1743  ls MediumPdf
+ 1744  ls -ltr
+ 1745  mkdir scripts
+ 1746  cd scr
+ 1747  cd scripts/
+ 1748  vi summarize_medium_pdfs.py 
+ 1749  # In WSL
+ 1750  python summarize_medium_pdfs.py   /mnt/c/Users/lpres/OneDrive/Documents/MediumPdf   -o /home/larry/Documents/MediumSummaries
+ 1751  python3 summarize_medium_pdfs.py   /mnt/c/Users/lpres/OneDrive/Documents/MediumPdf   -o /home/larry/Documents/MediumSummaries
+ 1752  python3 -m venv .venv
+ 1753  source .venv/bin/activate
+ 1754  pip install PyPDF2 transformers torch tqdm
+ 1755  source .venv/bin/activate
+ 1756  python3 summarize_medium_pdfs.py   /mnt/c/Users/lpres/OneDrive/Documents/MediumPdf   -o /home/larry/Documents/MediumSummaries
+ 1757  pip install "PyPDF2>=3.0" "transformers>=4.41" torch tqdm
+ 1758  cd Documents
+ 1759  cd ~/Documents/
+ 1760  ls
+ 1761  cd scripts
+ 1762  ls -al
+ 1763  source .venv/bin/activate; pip install "PyPDF2>=3.0" "transformers>=4.41" torch tqdm
+ 1764  python summarize_medium_pdfs.py   "C:\\Users\\lpres\\OneDrive\\Documents\\MediumPdf"   -o ~/Documents/MediumSummaries
+ 1765  ls -ltr
+ 1766  cd ../
+ 1767  ls
+ 1768  python scripts/summarize_medium_pdfs.py MediumPdf -o MediumSummaries
+ 1769  code summarize_medium_meta.py
+ 1770  vscode summarize_medium_meta.py
+ 1771  vi summarize_medium_meta.py
+ 1772  python scripts/summarize_medium_meta.py MediumPdf -o MediumSummaries
+ 1773  mv summ*py scripts/
+ 1774  python scripts/summarize_medium_meta.py MediumPdf -o MediumSummaries
+ 1775  python scripts/summarize_medium_meta.py MediumPdf -o MediumSummaries/medium_titles.csv
+ 1776  vi MediumSummaries/medium_titles.csv
+ 1777  vi categorize_medium_pdfs.py
+ 1778  python scripts/categorize_medium_pdfs.py MediumPdf -o MediumSummaries/categorize.csv
+ 1779  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1780  ls -al
+ 1781  mv *py scripts/
+ 1782  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1783  ls -ltr
+ 1784  vi medium_buckets.csv
+ 1785  vi scripts/categorize_medium_pdfs.py 
+ 1786  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1787  vi scripts/categorize_medium_pdfs.py 
+ 1788  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1789  pip install pandas; pip freeze > requirements.txt
+ 1790  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1791  vi scripts/categorize_medium_pdfs.py 
+ 1792  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1793  vi scripts/categorize_medium_pdfs.py 
+ 1794  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1795  vi scripts/categorize_medium_pdfs.py 
+ 1796  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1797  ls -ltr
+ 1798  cat medium_buckets.csv 
+ 1799  head medium_buckets.csv 
+ 1800  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1801  vi scripts/categorize_medium_pdfs.py 
+ 1802  python scripts/categorize_medium_pdfs.py MediumPdf 
+ 1803  cd
+ 1804  ./start_mkdocs.sh 
+ 1805  /usr/bin/python3.12 /home/larry/ap/stocks/scripts/s01_wikipedia_tickers.py
+ 1806  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/scripts/s01_wikipedia_tickers.py
+ 1807  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/scripts/s02_company_info.py
+ 1808  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/scripts/s03_history_poc.py
+ 1809  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1810  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1811  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipline.py
+ 1812  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipeline.py
+ 1813  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers_orig.py
+ 1814  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1815  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py --refresh-sp500
+ 1816  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py AAPL
+ 1817  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -v
+ 1818  source .venv/bin/activate
+ 1819  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -v
+ 1820  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -v
+ 1821  pip install yfinance --upgrade
+ 1822  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -v
+ 1823  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1824  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1825  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1826  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1827  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1828  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1829  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1830  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1831  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1832  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1833  cd code/v0
+ 1834  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1835  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1836  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1837  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1838  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1839  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1840  python run_pipeline.py --one VICI -s 2020-01-01 -e 2025-12-31 -v
+ 1841  python run_pipeline.py  VICI -s 2020-01-01 -e 2025-12-31 -v
+ 1842  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipeline.py
+ 1843  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1844  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1845  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1846  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1847  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1848  python run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1849  /home/larry/ap/stocks/.venv/bin/python
+ 1850  cd ../../
+ 1851  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v
+ 1852  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1853  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v -o data
+ 1854  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1855  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v -o data
+ 1856  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1857  python code/v0/run_pipeline.py --refresh-sp500 -s 2020-01-01 -e 2025-12-31 -v -o data
+ 1858  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/check_yfinance_data.py
+ 1859  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/deactivate/bash/envVars.txt
+ 1860  /home/larry/ap/portal/.venv/bin/python /home/larry/ap/portal/scripts/use_emoji.py
+ 1861  /home/larry/ap/portal/.venv/bin/python /home/larry/ap/portal/scripts/pdf_to_md.py
+ 1862  /home/larry/ap/portal/.venv/bin/python /home/larry/ap/portal/scripts/gen_mkdocs_nav_m3.py
+ 1863  mkdocs serve
+ 1864  /usr/bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.0/python_files/deactivate/bash/envVars.txt
+ 1865  /bin/python3 /home/larry/.vscode-server/extensions/ms-python.python-2025.8.1-linux-x64/python_files/printEnvVariablesToFile.py /home/larry/.vscode-server/extensions/ms-python.python-2025.8.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1866  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipeline.py
+ 1867  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1868  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1869  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipeline.py
+ 1870  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1871  pip install icecream
+ 1872  pip freeze
+ 1873  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1874  source .venv/bin/activate
+ 1875  pip install icecream
+ 1876  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py
+ 1877  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py -v
+ 1878  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py -vv
+ 1879  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/run_pipeline.py
+ 1880  pip freeze | grep ice
+ 1881  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py AAPL
+ 1882  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py -t AAPL
+ 1883  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/fetch_sp500_tickers.py -tickers AAPL
+ 1884  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1885  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL
+ 1886  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL -s 2020-01-01
+ 1887  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL -s 2020-01-01 -e 2025-12-31
+ 1888  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL, NVDA -s 2020-01-01 -e 2025-12-31
+ 1889  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t [[AAPL, NVDA]] -s 2020-01-01 -e 2025-12-31
+ 1890  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1891  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL
+ 1892  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1893  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL
+ 1894  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1895  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL
+ 1896  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1897  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL
+ 1898  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py
+ 1899  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL -s 2020-01-01^Ce 2025-12-31
+ 1900  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/v0/download_yfinance_data.py -t AAPL -s 2020-01-01 -e 2025-12-31
+ 1901  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s20_get_yfinance_history.py
+ 1902  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s20_get_yfinance_history.py -ticker AAPL
+ 1903  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s20_get_yfinance_history.py --ticker AAPL
+ 1904  /home/larry/ap/stocks/code/s20_get_yfinance_history.py --ticker AAPL
+ 1905  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s20_get_yfinance_history.py --ticker AAPL
+ 1906  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s20_get_yfinance_history.py 
+ 1907  pip freeze > requirements.txt
+ 1908  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s10_get_sp500_tickers.py
+ 1909  /home/larry/ap/stocks/.venv/bin/python
+ 1910  /home/larry/ap/stocks/.venv/bin/python /home/larry/ap/stocks/code/s22_get_yfinance_info.py
+ 1911  cd /mnt/c/Users/lpres/Documents/Songbook
+ 1912  cd /mnt/c/Users/lpres/OneDrive/Documents/Songbook
+ 1913  mkdir JoanneCooper
+ 1914  mv CooperSongBook.csv JoanneCooper/songlist.csv
+ 1915  sudo mv CooperSongBook.csv JoanneCooper/songlist.csv
+ 1916  ls -ltr
+ 1917  mv *.pdf  Scribd/
+ 1918  ls -ltr
+ 1919  cd JoanneCooper/
+ 1920  ls 
+ 1921  ls -al
+ 1922  rm ../'Grid view.csv'
+ 1923  cd ../
+ 1924  ls -ltr
+ 1925  mkdir Singles
+ 1926  mv docx* Singles/
+ 1927  mv *docx Singles/
+ 1928  cd JoanneCooper/
+ 1929  vi .setup.py
+ 1930  chordpro --version
+ 1931  source /home/larry/ap/util/.venv/bin/activate
+ 1932  exit
+ 1933  chordpro --version
+ 1934  source /home/larry/ap/util/.venv/bin/activate
+ 1935  chordpro --version
+ 1936  source /home/larry/ap/util/.venv/bin/activate
+ 1937  chordpro --version
+ 1938  source /home/larry/ap/util/.venv/bin/activate
+ 1939  chordpro --version
+ 1940  source /home/larry/ap/util/.venv/bin/activate
+ 1941  chordpro --version
+ 1942  source /home/larry/ap/util/.venv/bin/activate
+ 1943  source /home/larry/ap/util/.venv/bin/activate
+ 1944  /home/larry/ap/util/.venv/bin/python /home/larry/ap/util/joanne_cooper.py
+ 1945  /home/larry/ap/util/.venv/bin/python /home/larry/ap/util/joanne_cooper.py songs/songlist.csv
+ 1946  duckdb -c "select * from read_csv_auto('songs/songlist.csv')
+ 1947  ;
+ 1948  .h
+ 1949  .bye
+ 1950  .h
+ 1951  duckdb -c "select * from read_csv_auto('songs/songlist.csv')
+ 1952  ;
+ 1953  .h
+ 1954  .bye
+ 1955  .quit
+ 1956  duckdb -c "select * from read_csv_auto('songs/songlist.csv');"
+ 1957  ;
+ 1958  .h
+ 1959  .bye
+ 1960  .quit
+ 1961  duckdb -c "select 'Song Name' from read_csv_auto('songs/songlist.csv');"
+ 1962  duckdb -c "select Song Name from read_csv_auto('songs/songlist.csv');"
+ 1963  source /home/larry/ap/util/.venv/bin/activate
+ 1964  pip install duckdb pandas
+ 1965  cd /mnt/c/Users/lpres/OneDrive/Documents/Songbook/JoanneCooper/
+ 1966  ls
+ 1967  cp /mnt/c/Users/lpres/OneDrive/Documents/Songbook/JoanneCooper/songlist.csv  .
+ 1968  cd -
+ 1969  ls -ltr
+ 1970  cd songs
+ 1971  ls -ltr
+ 1972  cd ../
+ 1973  chordpro --version
+ 1974  source /home/larry/ap/util/.venv/bin/activate
+ 1975  chordpro --version
+ 1976  source /home/larry/ap/util/.venv/bin/activate
+ 1977  duckdb -c "select SongName from read_csv_auto('songs/songlist.csv')
+ 1978  ;
+ 1979  "
+ 1980  duckdb -c "select SongName, Artist from read_csv_auto('songs/songlist.csv');" > out1.txt  
+ 1981  ;
+ 1982  "
+ 1983  duckdb -c "select SongName, Artist from read_csv_auto('songs/songlist.csv');"  
+ 1984  chordpro --version
+ 1985  source /home/larry/ap/util/.venv/bin/activate
+ 1986  chordpro --version
+ 1987  source /home/larry/ap/util/.venv/bin/activate
+ 1988  chordpro --version
+ 1989  source /home/larry/ap/util/.venv/bin/activate
+ 1990  chordpro --version
+ 1991  source /home/larry/ap/util/.venv/bin/activate
+ 1992  chordpro --version
+ 1993  source /home/larry/ap/util/.venv/bin/activate
+ 1994  git config pull rebase true
+ 1995  git config pull.rebase true
+ 1996  ls /mnt/c/Users/lpres/OneDrive/
+ 1997  ls /mnt/c/Users/lpres/
+ 1998  ls /mnt/c/Users/lpres/Downloads/
+ 1999  ls /mnt/c/Users/lpres/Downloads/*zip
+ 2000  cd setup
+ 2001  mv /mnt/c/Users/lpres/Downloads/goochland_site.zip .
+ 2002  unzip goochland_site.zip -d .
+ 2003  ls -ltr
+ 2004  cd goochland_site
+ 2005  ls -ltr
+ 2006  cd ../
+ 2007  python -m venv .venv
+ 2008  python3 -m venv .venv
+ 2009  source .venv/bin/activate
+ 2010  pip install --upgrade pip
+ 2011  pip install mkdocs-material
+ 2012  mv setup/goochland_site/docs .
+ 2013  mv setup/goochland_site/mkdocs.yml .
+ 2014  mkdocs serve
+ 2015  git add .
+ 2016  git commit -m "Initial Mkdocs Material site"
+ 2017  git push origin main
+ 2018  mkdocs gh-deploy
+ 2019  cd setup
+ 2020  history > setup_history.txt

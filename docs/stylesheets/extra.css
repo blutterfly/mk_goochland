@@ -1,0 +1,20 @@
+/* 1️⃣  Make the entire header (brand bar + tabs) solid black */
+/* Header (brand bar) — slate gray */
+.md-header {
+  background-color: #2e3a46 !important;   /* slate tone */
+}
+
+/* Navigation tabs — solid black */
+.md-tabs,
+.md-tabs__item,
+.md-tabs__link {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Ensure hover / active states keep white text */
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: #fff !important;
+}
+

@@ -1,5 +1,6 @@
-# Goochland Living Lab & Retreat
+# Welcome 
 
-Welcome to our 15‑acre hub for **STEM education, sustainable agriculture, weddings, and outdoor wellness**. Explore our vision, programs, and how to visit.
+## Goochland Living Lab & Retreat
 
-> **Tip:** Use the sidebar to navigate each section.
+Our 15‑acre hub for **STEM education, sustainable agriculture, weddings, and outdoor wellness**. Explore our vision, programs, and how to visit.
+
