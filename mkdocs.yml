@@ -1,4 +1,4 @@
-site_name: Goochland Living Lab & Retreat
+site_name: GoochLab
 site_description: A 15‑acre agritourism, education, and events destination in Goochland County, VA.
 site_url: https://blutterfly.github.io/mk_goochland
 repo_url: https://github.com/mk_goochland
@@ -35,23 +35,34 @@ nav:
       - index.md
       - Use Cases: 10-use-cases.md
       - Playbook: 11-playbook.md
+  
   - Exhibits:
       - Solar Powered Loop: 20-solar-garden-loop.md
       - Van-Life Innovation Station: 21-van-life.md
       - Skoolie Creation Lab: 22-skoolie.md
       - Camping Hiking Gear: 23-camping-hiking.md
       - Bushcraft Upskill Blueprint: 24-bushcraft.md      
-
-  - About:
-      - Vision & Mission: 01-overview.md
-      - Site Map: 02-site-map.md
+  
+  - Goochland:
+      - Parcel Map: 70-goochland-gis.md      
+ 
   - Development:
       - Phased Plan: 03-phasing.md
       - Programs & Revenue: 04-programs.md
       - Grants & Funding: 05-grants.md
+  
   - Visit Us: 06-visit.md
   - Contact: 07-contact.md
+  - About:
+    - Vision & Mission: 01-overview.md
+    - Site Map: 02-site-map.md
+
   - DevNotes: 08-dev-notes.md
+  # - Consulting: 
+  #     - Overview: 50-consulting.md
+  #     - Bootcamp: 51-bootcamp.md  
+  #     - Bootcamp 2: 52-bootcamp2.md
+
 
 extra:
   copyright: "@ 2025 Larry Prestosa"
