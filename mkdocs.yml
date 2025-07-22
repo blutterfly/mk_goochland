@@ -1,7 +1,7 @@
 site_name: GoochLab
 site_description: A 15‑acre agritourism, education, and events destination in Goochland County, VA.
 site_url: https://blutterfly.github.io/mk_goochland
-repo_url: https://github.com/mk_goochland
+repo_url: https://github.com/blutterfly/mk_goochland
 theme:
   name: material
 
